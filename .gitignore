@@ -1,0 +1,26 @@
+*.py[co]
+
+#test
+config.py
+*.sh
+*backup*
+*test*
+
+#thrift
+*thrift
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+
+# Vim
+.*.sw[op]
