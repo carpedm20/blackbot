@@ -7,6 +7,7 @@
     :license: BSD, see LICENSE for more details.
 """
 
+import sys, os
 import requests
 
 from talk import Talk
@@ -55,7 +56,5 @@ class Black(object):
                 else:
                     pass
             except Exception as e:
-                print "[!] Error: unkown command %s" % e.message
+                print e
 
-    def run_cmd(self):
-        self.talk.cmdloop()
